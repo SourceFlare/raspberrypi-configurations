@@ -18,7 +18,7 @@ echo "127.0.0.1     localhost" > "$HOSTS";
 echo "::1           localhost ip6-localhost ip6-loopback" >> "$HOSTS";
 echo "ff02::1       ip6-allnodes" >> "$HOSTS";
 echo "ff02::1       ip6-allrouters" >> "$HOSTS";
-echo "127.0.0.1     RaspberrySource" >> "$HOSTS";
+echo "127.0.0.1     $HOSTNAME" >> "$HOSTS";
 
 echo; 
 echo "$PREFIX Completed.";
